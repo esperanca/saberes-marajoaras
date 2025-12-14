@@ -204,11 +204,11 @@ section {
 }
 
 .ceramica-section {
-    background-image: url('https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=1920&h=1080&fit=crop');
+    background-image: url('images/ceramica-hero.jpg');
 }
 
 .dancas-section {
-    background-image: url('https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1920&h=1080&fit=crop');
+    background-image: url('images/dancas-hero.jpg');
 }
 
 .literatura-section {
@@ -220,7 +220,7 @@ section {
 }
 
 .festivais-section {
-    background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1920&h=1080&fit=crop');
+    background-image: url('images/festivais-hero.jpg');
 }
 
 .category-link {
@@ -313,13 +313,13 @@ section {
 }
 
 .ceramica-hero {
-    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=1920&h=600&fit=crop');
+    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('images/ceramica-hero.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .dancas-hero {
-    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=1920&h=600&fit=crop');
+    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('images/dancas-hero.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -337,7 +337,13 @@ section {
 }
 
 .festivais-hero {
-    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1920&h=600&fit=crop');
+    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('images/festivais-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-hero {
+    background-image: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(160, 82, 45, 0.85)), url('images/ampac-sede.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -881,6 +887,46 @@ section {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Ilustrações Decorativas */
+.illustration-divider {
+    text-align: center;
+    margin: 60px 0;
+    padding: 40px 0;
+}
+
+.illustration-divider img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.illustration-divider img:hover {
+    opacity: 1;
+}
+
+.illustration-float {
+    position: absolute;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.illustration-float.left {
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 200px;
+}
+
+.illustration-float.right {
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 200px;
 }
 
 /* Animações */
