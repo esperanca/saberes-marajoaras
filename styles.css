@@ -677,8 +677,8 @@ section {
 
 /* Footer */
 .footer {
-    background-color: var(--text-dark);
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     padding: 0;
     position: relative;
 }
@@ -721,7 +721,7 @@ section {
 
 .footer-logo p {
     font-size: 1rem;
-    opacity: 0.9;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
@@ -732,7 +732,7 @@ section {
 
 .footer-info p {
     margin-bottom: 0.5rem;
-    opacity: 0.8;
+    color: #000000;
 }
 
 /* Responsive Design */
